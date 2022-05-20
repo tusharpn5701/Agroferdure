@@ -1,0 +1,130 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF ;
+  z-index: 100;
+  border-bottom-width: 5px;
+  border-bottom-color: #F2F2F2;
+  border-bottom-style: solid; 
+}
+
+.header__logo {
+  height: 100px;
+  width: 200px;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-top: 0px;
+  
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;  
+  border: none;
+  margin-left: 100px; 
+  width: 70%;
+  background-color: #d1ebd8; 
+  /*border-radius: 5px;*/
+}
+
+.header__searchInput[type="text"] {
+  font-family: Candara;
+  font-style: italic;
+  font-weight: 700;
+  color: #2f5d00;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #c0e605;
+  color: #5d1f00;
+  border-radius: 5px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+
+.header__categories {
+  font-family: Candara;
+  font-weight: 900;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.header__optionLine {
+  font-size: 15px;
+  font-weight: 630;
+  padding-left: 10px;
+  padding-top: 3px;
+  text-decoration: none;
+}
+
+.header__optionLineOne {
+  font-size: 15px;
+  font-weight: 630;
+  padding-left: 10px;
+  padding-top: 3px;
+  color: #282828;
+}
+
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 630;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.header__optionProfile {
+  display: flex;
+  margin-left: 10px;
+}
+
+.header__optionOrder {
+  display: flex;
+  margin-left: 10px;
+}
+
+.header__optionCart {
+  display: flex;
+  margin-left: 3px;
+}
+
+.header__CartCount {
+}
+
+.header_optionTranslator{
+  display: flex;
+  align-items: center;
+  color: black; 
+  margin-right: 10px;
+}
+
+.header_extra{
+  color: white;
+}
